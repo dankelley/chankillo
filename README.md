@@ -29,19 +29,29 @@ corners, I simply digitized one point at the centre of each.
 Ghezzi and Ruggles (2007) indicate that declinations that, in this
 location and at the time 300 BCE, the solar declinations at Summer and
 Winter solstice were 23.75 and -23.75, respectively. These lines are
-indicated in the diagram, but the results differ substantially from
-those in Figures 4 and 5 of Ghezzi and Ruggles (2007), likely indicating
-an error of the present analysis. Examination of the sun traces
-indicated on their diagrams suggests that the mislocation is not the
-result of the fact that the present analysis ignores tower elevation
-(related to ridge shape). The cause of the mismatch is not yet known.
+indicated in the diagram.
+
+The solstice siting lines in the present analysis do not match up well
+with those in Figures 4 and 5 of Ghezzi and Ruggles (2007). I think I am
+computing the y axis incorrectly, since in the original diagram the
+distance from the ridge to the eastern observation point is about equal
+to the distance along the ridge that contains towers. But in my diagram,
+the distance along the ridge is much larger than the distance to the
+observation point. I’ll look more into my code to see what I’ve done
+wrong,
 
 ![Figure 1 site map, with solstice siting lines. The Western and Eastern
 observation locations are indicated with labelled circle and triangle,
 respectively, and the crosses indicate the centres of the ridge towers.
 The red lines indicate sunrise and set locations at the June solstice
 and the blue lines indicate the same, for the December
-solstice.](README_files/figure-markdown_strict/unnamed-chunk-1-1.png)
+solstice.](README_files/figure-markdown_strict/unnamed-chunk-1-1.png)![Figure
+1 site map, with solstice siting lines. The Western and Eastern
+observation locations are indicated with labelled circle and triangle,
+respectively, and the crosses indicate the centres of the ridge towers.
+The red lines indicate sunrise and set locations at the June solstice
+and the blue lines indicate the same, for the December
+solstice.](README_files/figure-markdown_strict/unnamed-chunk-1-2.png)
 
 # References
 

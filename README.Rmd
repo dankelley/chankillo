@@ -3,7 +3,6 @@ author: Dan Kelley
 title: Solar angles for Chankillo observatory
 bibliography: chankillo.bib
 date: "`r Sys.Date()`"
-output: markdown
 ---
 
 # chankillo
@@ -21,11 +20,13 @@ digitized using the imageDigitizer R function
 
 To determine scales, it had to be assumed that this diagram was prepared using
 natural scaling, because otherwise it would not be possible to infer a scale
-for the northing coordinate.
+for the northing coordinate, given just a single marked value on the axis.
 
-Although the position of the eastern observation location seemed clear on the
-diagram, it was not clear exactly where the western one was located.  I elected
-to digitize a point on the main diagram that was in the middle of its inset.
+Although the position of the eastern observation location was indicated well on
+the diagram, the same could not e said of the position of the western one.  I
+elected to digitize a point on the main diagram that was in the middle of the
+region shown in the inset that relates to the point.  If I had to guess, I'd
+say that this is perhaps within 50m of the true location.
 
 The towers that had been built-up on the ridge are indicated with squares in
 the original diagram, and rather than try to digitize their corners, I simply
@@ -35,15 +36,22 @@ digitized one point at the centre of each.
 
 @ghezzi_chankillo_2007 indicate that declinations that, in this location and at
 the time 300 BCE, the solar declinations at Summer and Winter solstice were
-23.75 and -23.75, respectively. These lines are indicated in the diagram, but
-the results differ substantially from those in Figures 4 and 5 of
-@ghezzi_chankillo_2007, likely indicating an error of the present analysis.
-Examination of the sun traces indicated on their diagrams suggests that the
-mislocation is not the result of the fact that the present analysis ignores
-tower elevation (related to ridge shape). The cause of the mismatch is not yet
-known.
+23.75 and -23.75, respectively. These lines are indicated in the diagram.
 
-```{r echo=FALSE, fig.cap="Figure 1 site map, with solstice siting lines. The Western and Eastern observation locations are indicated with labelled circle and triangle, respectively, and the crosses indicate the centres of the ridge towers. The red lines indicate sunrise and set locations at the June solstice and the blue lines indicate the same, for the December solstice."}
+The solstice sighting lines in the present analysis match up only approximately
+with those in Figures 4 and 5 of @ghezzi_chankillo_2007.  Looking just at the
+limits, I judge the mismatches to be approximately 30m.  From Figures 4 and 5
+of @ghezzi_chankillo_2007, and tracing the slanted lines of the sun, this does
+not seem to be explainable in terms of the elevation along the ridge.
+
+Since I had to make a guess on the x-y scaling (given the provision of just one
+labelled point along the northing direction), it is possible that the x-y
+scaling of my diagram is incorrect. Another problem is my confusion on exactly
+where to place the western observation location.  It might be worth looking for
+other publications by these authors, to get more information on the geometry.
+
+
+```{r echo=FALSE, fig.cap="Figure 1 site map, with solstice sighting lines. The Western and Eastern observation locations are indicated with labelled circle and triangle, respectively, and the crosses indicate the centres of the ridge towers. The red lines indicate sunrise and set locations at the June solstice and the blue lines indicate the same, for the December solstice."}
 source("fig01.R")
 ```
 
